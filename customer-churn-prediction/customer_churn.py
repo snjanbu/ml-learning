@@ -6,7 +6,7 @@ from tensorflow.keras.layers import Dense
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical
 
-data = pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
+data = pd.read_csv("Telco-Customer-Churn.csv")
 
 data['TotalCharges'] = pd.to_numeric(data['TotalCharges'], errors='coerce')
 
